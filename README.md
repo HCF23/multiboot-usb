@@ -5,7 +5,7 @@ I'm always reinstalling OS's (especially Windows) when they get bloated (I guess
 
 With a few machines laying around and always new projects to try, I thought it'd be great to have a one-stop-stop usb to boot any and everything from.
 
-I honestly can't beleive the rabbit hole this took me down - when all I needed was grub2 and a bunch of iso's. 
+I honestly can't believe the rabbit hole this took me down - when all I needed was grub2 and a bunch of iso's. 
 
 The web is full of 'handy' tools to create your own multiboot flash drives but tbh, I tried a few and ... they just didn't work.
 
