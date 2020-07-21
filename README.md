@@ -19,8 +19,9 @@ With the process sorted I collected my iso's and got to adding custom menu entri
 
 Alas, this didn't work OOB either. There is minor debugging to complete first:
 
-```` set root=$linux_boot_fs_location
-
+```` 
+set root=$linux_boot_fs_location
+````
 The fs couldn't be determined because hd0 was assigned to the flashdrive and the orig OS hdd had a partition on as well. Just repointed the pointer and it booted fine. No need to panic.
 
 Will it work on a non partitioned hdd? Let's find out ... (one day)
