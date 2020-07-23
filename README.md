@@ -22,6 +22,15 @@ Alas, this didn't work OOB either. There is minor debugging to complete first:
 ```` 
 set root=$linux_boot_fs_location
 ````
+for example:
+````
+grub> set root=(hd2,1)
+grub> linux /boot/vmlinuz-3.13.0-29-generic root=/dev/sda1
+grub> initrd /boot/initrd.img-3.13.0-29-generic
+grub> boot
+
+````
+
 The fs couldn't be determined because hd0 was assigned to the flashdrive and the orig OS hdd had a partition on as well. Just repointed the pointer and it booted fine. No need to panic.
 
 Will it work on a non partitioned hdd? Let's find out ... (one day)
